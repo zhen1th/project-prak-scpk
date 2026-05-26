@@ -159,7 +159,6 @@ with tab3:
     if "w_criteria" not in st.session_state:
         st.info("Silakan lakukan perhitungan di tab '⚖️ Pembobotan Kriteria' terlebih dahulu.")
     else:
-        st.subheader("FULL AHP")
         st.caption("Berikan penilaian perbandingan antar dosen untuk setiap kriteria berikut.")
 
         teachers = st.session_state.teachers
